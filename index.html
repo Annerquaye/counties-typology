@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <script>
+    // < !--Global site tag(gtag.js) - Google Analytics-- >
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-102043129-1');
+  </script>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Economic Type Detail</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+
+  <!-- Mapbox  -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet" />
+</head>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+<!-- Font Awesome CSS -->
+<script src="https://kit.fontawesome.com/c0565cd6ff.js" crossorigin="anonymous"></script>
+
+<!-- Google Fonts  -->
+<<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+
+<!-- My CSS -->
+
+<link rel="stylesheet" href="css/body-styles.css">
+<link rel="stylesheet" href="styles.css" />
+
+<!-- Favicon -->
+<link rel="image_src" href="img/portfolio-01.jpg" />
+<meta name="description" content="An award-winning business journalist from Ghana." />
+<meta name="keywords" content="Richard is currently pursuing a data journalism masters at Columbia University." />
+<meta property="og:image" content="img/portfolio-01.jpg" />
+<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/faviconapple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+  <div class="sticky">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="img/aboutme.html">ABOUT ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" <a href="img/resume.pdf">RESUME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" <a href="mailto:raa2213@columbia.edu" target="_blank">CONTACT</a>
+      </li>
+    </ul>
+<body>
+    <div class="container">
+        <!-- <img src="img/biden-trump.jpeg" alt="Snow" style="width:100%">
+        <h6>Image credit: Politico</h6> -->
+        <hr>
+        <div class="headline">
+          <h1> Recreating a map of counties' dominant economic activity and US police brutality </h1>
+        </div>
+        <strong><p>By Richard A. Abbey</p></strong>
+      <div class="story">
+        <p>The Economic Research Service of the US Department of Agriculture developed the County Typology Codes to offer insight into dominant economic activity at the county level.</p>
+        <p>It is believed that an area’s economic and social characteristics have a significant part impact on its development as well as need for various types of public programs.</p>
+        
+        <p>The most recent <a href="https://www.ers.usda.gov/data-products/county-typology-codes.aspx"> County Typology Codes, 2015 edition</a>, classify all counties according to six mutually exclusive categories. Another classification is made via economic dependence types include farming, mining, manufacturing, Federal/State government, recreation, and nonspecialized counties.</p>
+        <p>The first choropleth map visualizes these counties and the dominant economic activity. At the state level, it displays which the economic classification which is most common among counties within the state.</p>
+        <p>The second map visualizes incidents of police brutality using a dotted map. The data is collected by the organization 2020PoliceBrutality with assistance from the public.
+        <p>The project which was inspired by the killing of George Floyd in 2020, is intended to shine a light on the state of policing in America, the group said on its <a href="https://2020pb.com/#mid-content">website.</a></p>
+        <p>At least 1,340 incidents of police were reported and included in this visualization </p>
+        
+        </div>
+    </div>
+    <div id='map'></div>
+    <div class='map-overlay' id='legend'>
+        <p>This map shows the economic type label distribution of US counties.</p>
+        <hr>
+        <div id="income-legend" class="legend">
+            <h6>Economic Type</h6>
+            <div><span style="background-color: #FAEDCA"></span>Non-specialized</div>
+            <div><span style="background-color: #7EBC89""></span>Manufacturing</div>
+            <div><span style="background-color: #9DCDC0"></span>Farming</div>
+            <div><span style="background-color: #C1DBB3"></span>Federal/State Gov't</div>
+            <div><span style="background-color: #FE5D26"></span>Recreation</div>
+            <div><span style="background-color: #F2C078"></span>Mining</div>
+            <hr>
+            <p>Source of data: <a href="https://www.ers.usda.gov/data-products/county-typology-codes.aspx">2020pb.com</a></p>
+        </div>
+    </div>
+    </div>
+    <div id='map2'></div>
+    <div class='map-overlay' id='legend'>
+      <h5>Mapping US police brutality</h5>
+      <hr>      
+      <div id="turnstile-legend" class="legend2">
+        <div><span style="background-color: #c05833; height:20px; width:20px"></span>This map shows a nationwide distribution  of police brutality incidents since 2020.</div>
+        <hr>
+        <p>Source of data: <a href="https://2020pb.com/#mid-content">2020pb.com</a></p>
+    </div>
+  
+  </div>
+  </div>
+</div>
+    <script type='text/javascript' src="map.js"></script>
+</body>
+
+</html>

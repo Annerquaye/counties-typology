@@ -5,8 +5,8 @@ var map = new mapboxgl.Map({
   style: "mapbox://styles/annerquaye/cl3z9ena0000014ok1u3ecie2",
   zoom: 2,
   maxZoom: 9,
-  minZoom: 3.5,
-  center: [-99, 38],
+  minZoom: 3.68,
+  center: [-97.461, 39.160,],
   maxBounds: [
     [-180, 15],
     [-30, 72],
@@ -24,7 +24,7 @@ map.on("load", function () {
           data: "data/stateTypology.geojson",
         },
         paint: {
-          "line-color": "#fff",
+          "line-color": "#000",
           "line-width": 0.7,
         },
       },
@@ -171,8 +171,8 @@ var map2 = new mapboxgl.Map({
   style: "mapbox://styles/annerquaye/cl41us0el004w14mr8gl9aoja",
   zoom: 4,
   maxZoom: 12,
-  minZoom: 3.5,
-  center: [-99, 38],
+  minZoom: 3.6,
+  center: [-97.461, 39.160],
   maxBounds: [
     [-180, 15],
     [-30, 72],
